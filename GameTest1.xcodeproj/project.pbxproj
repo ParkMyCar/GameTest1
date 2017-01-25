@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E1713F61E38384C0033734A /* 04B_19__.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 3E1713F51E38384C0033734A /* 04B_19__.TTF */; };
 		3E4884DD1E352ADA00EE339B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4884DC1E352ADA00EE339B /* AppDelegate.swift */; };
 		3E4884DF1E352ADA00EE339B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3E4884DE1E352ADA00EE339B /* GameScene.sks */; };
-		3E4884E11E352ADA00EE339B /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3E4884E01E352ADA00EE339B /* Actions.sks */; };
 		3E4884E31E352ADA00EE339B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4884E21E352ADA00EE339B /* GameScene.swift */; };
 		3E4884E51E352ADA00EE339B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4884E41E352ADA00EE339B /* GameViewController.swift */; };
 		3E4884E81E352ADA00EE339B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E4884E61E352ADA00EE339B /* Main.storyboard */; };
@@ -37,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E1713F51E38384C0033734A /* 04B_19__.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = 04B_19__.TTF; sourceTree = "<group>"; };
 		3E4884D91E352ADA00EE339B /* GameTest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameTest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E4884DC1E352ADA00EE339B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E4884DE1E352ADA00EE339B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		3E4884E01E352ADA00EE339B /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		3E4884E21E352ADA00EE339B /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		3E4884E41E352ADA00EE339B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		3E4884E71E352ADA00EE339B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -103,9 +103,9 @@
 		3E4884DB1E352ADA00EE339B /* GameTest1 */ = {
 			isa = PBXGroup;
 			children = (
+				3E1713F51E38384C0033734A /* 04B_19__.TTF */,
 				3E4884DC1E352ADA00EE339B /* AppDelegate.swift */,
 				3E4884DE1E352ADA00EE339B /* GameScene.sks */,
-				3E4884E01E352ADA00EE339B /* Actions.sks */,
 				3E4884E21E352ADA00EE339B /* GameScene.swift */,
 				3E4884E41E352ADA00EE339B /* GameViewController.swift */,
 				3E4884E61E352ADA00EE339B /* Main.storyboard */,
@@ -246,9 +246,9 @@
 			files = (
 				3E4884E81E352ADA00EE339B /* Main.storyboard in Resources */,
 				3E4884DF1E352ADA00EE339B /* GameScene.sks in Resources */,
+				3E1713F61E38384C0033734A /* 04B_19__.TTF in Resources */,
 				3E4884EA1E352ADA00EE339B /* Assets.xcassets in Resources */,
 				3E4884ED1E352ADA00EE339B /* LaunchScreen.storyboard in Resources */,
-				3E4884E11E352ADA00EE339B /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,6 +524,7 @@
 				3E4885091E352ADA00EE339B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E48850A1E352ADA00EE339B /* Build configuration list for PBXNativeTarget "GameTest1Tests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +533,7 @@
 				3E48850C1E352ADA00EE339B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E48850D1E352ADA00EE339B /* Build configuration list for PBXNativeTarget "GameTest1UITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +542,7 @@
 				3E48850F1E352ADA00EE339B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
